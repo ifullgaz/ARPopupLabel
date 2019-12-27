@@ -312,10 +312,10 @@ public class ARPopupLabel: SCNNode {
         // Dots
         dotGeometry.height = 0.001
         dotTopNode.geometry = dotGeometry
-        dotTopNode.eulerAngles = SCNVector3(x: .pi / 2, y: 0.0, z: 0.0)
+        dotTopNode.eulerAngles = SCNVector3(x: -.pi / 2, y: 0.0, z: 0.0)
         borderNodeTop.addChildNode(dotTopNode)
         dotBottomNode.geometry = dotGeometry
-        dotBottomNode.eulerAngles = SCNVector3(x: .pi / 2, y: 0.0, z: 0.0)
+        dotBottomNode.eulerAngles = SCNVector3(x: -.pi / 2, y: 0.0, z: 0.0)
         borderNodeBottom.addChildNode(dotBottomNode)
 
         headerTextNode.scale = SCNVector3Make(Float(fontScale), Float(fontScale), Float(fontScale))
