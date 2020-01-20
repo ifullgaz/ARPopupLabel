@@ -215,6 +215,11 @@ public class ARPopupLabel: SCNNode {
         posY = Float(backPlaneHeight / 2.0 - (margin + lineWidth) / sizeScale)
         headerTextNode.position = SCNVector3Make(-posX, posY, 0.0)
         detailsTextNode.position = SCNVector3Make(-posX, -posY, 0.0)
+        
+        if (isExpanded) {
+            isExpanded = false
+            self.expand(duration: 0.0)
+        }
     }
     
     private func fitSizeForContent() {
@@ -288,6 +293,9 @@ public class ARPopupLabel: SCNNode {
                 let ratio = (point.y / (bezierPathHeight - lineOffset))
                 backPlaneNode.scale = SCNVector3Make(Float(ratio), Float(ratio), Float(ratio))
             }
+            else {
+                backPlaneNode.scale = SCNVector3Make(1.0, 1.0, 1.0)
+            }
         }
         self.backPlaneNode.opacity = progress
     }
@@ -336,11 +344,11 @@ public class ARPopupLabel: SCNNode {
         }
         self.isAnimating = true
         let borderAnimation = SCNAction.customAction(duration: duration) { (node, time) in
-            let progress = time / CGFloat(duration)
+            let progress = duration == 0 ? 1.0 : time / CGFloat(duration)
             self.animationFrame(progress: progress)
         }
-        
-        borderAnimation.timingMode = SCNActionTimingMode.linear
+        borderAnimation.timingMode = SCNActionTimingMode.easeInEaseOut
+
         func performAnimation(_ animation: SCNAction, completionHandler block: (() -> Void)? = nil) {
             self.runAction(animation, forKey: "borderAnimation") {
                 self.removeAction(forKey: "borderAnimation")

@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         let camera = SCNCamera()
         camera.zNear = 0.1
         cameraNode.camera = camera
-        cameraNode.position = SCNVector3(x: 0, y: 0, z: 1)
+        cameraNode.position = SCNVector3(x: 0, y: 0, z: 0.5)
         scene.rootNode.addChildNode(cameraNode)
         
         popupLabel.backgrounColor = UIColor.white.withAlphaComponent(0.8)
@@ -52,8 +52,7 @@ class ViewController: UIViewController {
         scene.rootNode.addChildNode(popupLabel)
         popupLabel.scale = SCNVector3(0.5, 0.5, 0.5)
         popupLabel.updateQueue = updateQueue
-        popupLabel.expand(duration: 1)
-
+        popupLabel.expand(duration: 1.0)
     }
 
     override func didReceiveMemoryWarning() {
