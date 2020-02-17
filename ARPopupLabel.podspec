@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ARPopupLabel'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'An animated popup label to use with SceneKit or ARKit'
 
 # This description is used to generate tags and improve search results.
