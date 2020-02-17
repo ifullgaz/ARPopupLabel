@@ -1,0 +1,23 @@
+PODS:
+  - ARPopupLabel (1.0.1):
+    - UIBezierPath-Query
+  - UIBezierPath-Query (1.0.0)
+
+DEPENDENCIES:
+  - ARPopupLabel (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - UIBezierPath-Query
+
+EXTERNAL SOURCES:
+  ARPopupLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ARPopupLabel: 67d2d701194deb2cb5ab9442ca9f749a95d96807
+  UIBezierPath-Query: c9ebbe08e2d190c22524ac292f8664aa927b0c58
+
+PODFILE CHECKSUM: e64d18b393c3582fd9e813d3563fc003c93245fa
+
+COCOAPODS: 1.8.0
