@@ -27,7 +27,7 @@ An animated popup label to use in SceneKit or ARKit
   s.author           = { 'Emmanuel Merali' => 'emmanuel@merali.me' }
   s.source           = { :git => 'https://github.com/ifullgaz/ARPopupLabel.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '11.3'
   s.swift_versions        = ['4.0', '4.2', '4.1', '5.0', '5.1']
 #  s.swift_version          = '4.0'
 

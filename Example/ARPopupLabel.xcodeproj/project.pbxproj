@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		310CF6EE4B390FC619CA0543 /* Pods_ARPopupLabel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B8E12258387D67DEC5C3C7 /* Pods_ARPopupLabel_Example.framework */; };
+		0D22D322187C997BFB6A66DD /* Pods_ARPopupLabel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9658A37D9989F19E00E493D6 /* Pods_ARPopupLabel_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -16,11 +16,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07EA06F3AC7970E9EE1031FA /* Pods-ARPopupLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPopupLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-ARPopupLabel_Example/Pods-ARPopupLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0A86CFB0A00A151FED4B69AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		140FFA0204FB9CEF4F2B05A2 /* ARPopupLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ARPopupLabel.podspec; path = ../ARPopupLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1DF934DE8D5BBDCECFA738A8 /* Pods-ARPopupLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPopupLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-ARPopupLabel_Example/Pods-ARPopupLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		206748BF12F798DFCDCFD5AC /* Pods-ARPopupLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPopupLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-ARPopupLabel_Example/Pods-ARPopupLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4291C8EFB4D115D24F08C405 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4C0C89DC071DA6FAA554A9D2 /* Pods-ARPopupLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPopupLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-ARPopupLabel_Example/Pods-ARPopupLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ARPopupLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPopupLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,10 +28,7 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8E74157CFA77FF6E7E09DBF3 /* Pods-ARPopupLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPopupLabel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ARPopupLabel_Tests/Pods-ARPopupLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		942EDAFF1CEAC9B2810B1B8C /* Pods_ARPopupLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARPopupLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9B8E12258387D67DEC5C3C7 /* Pods_ARPopupLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARPopupLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E67595F1B183074604774F43 /* Pods-ARPopupLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPopupLabel_Tests.release.xcconfig"; path = "Target Support Files/Pods-ARPopupLabel_Tests/Pods-ARPopupLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9658A37D9989F19E00E493D6 /* Pods_ARPopupLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARPopupLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,18 +36,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				310CF6EE4B390FC619CA0543 /* Pods_ARPopupLabel_Example.framework in Frameworks */,
+				0D22D322187C997BFB6A66DD /* Pods_ARPopupLabel_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28AC4CC6CF6CE84259D93B74 /* Frameworks */ = {
+		36C1E5BFB08471AC561764E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A9B8E12258387D67DEC5C3C7 /* Pods_ARPopupLabel_Example.framework */,
-				942EDAFF1CEAC9B2810B1B8C /* Pods_ARPopupLabel_Tests.framework */,
+				9658A37D9989F19E00E493D6 /* Pods_ARPopupLabel_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -58,10 +54,8 @@
 		4B674D10933B8E88168C4407 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4C0C89DC071DA6FAA554A9D2 /* Pods-ARPopupLabel_Example.debug.xcconfig */,
-				1DF934DE8D5BBDCECFA738A8 /* Pods-ARPopupLabel_Example.release.xcconfig */,
-				8E74157CFA77FF6E7E09DBF3 /* Pods-ARPopupLabel_Tests.debug.xcconfig */,
-				E67595F1B183074604774F43 /* Pods-ARPopupLabel_Tests.release.xcconfig */,
+				206748BF12F798DFCDCFD5AC /* Pods-ARPopupLabel_Example.debug.xcconfig */,
+				07EA06F3AC7970E9EE1031FA /* Pods-ARPopupLabel_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -73,7 +67,7 @@
 				607FACD21AFB9204008FA782 /* Example for ARPopupLabel */,
 				607FACD11AFB9204008FA782 /* Products */,
 				4B674D10933B8E88168C4407 /* Pods */,
-				28AC4CC6CF6CE84259D93B74 /* Frameworks */,
+				36C1E5BFB08471AC561764E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,11 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ARPopupLabel_Example" */;
 			buildPhases = (
-				7685CAF291475930222BA5B8 /* [CP] Check Pods Manifest.lock */,
+				278F54B9CC2C0280F42F7899 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				3377BCA38E877EBFFFEAEC03 /* [CP] Embed Pods Frameworks */,
+				C3B42709C9E7EF9488DC0E9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +145,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 99KS7662UV;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -188,27 +183,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3377BCA38E877EBFFFEAEC03 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ARPopupLabel_Example/Pods-ARPopupLabel_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ARPopupLabel/ARPopupLabel.framework",
-				"${BUILT_PRODUCTS_DIR}/UIBezierPath-Query/UIBezierPath_Query.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARPopupLabel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIBezierPath_Query.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARPopupLabel_Example/Pods-ARPopupLabel_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7685CAF291475930222BA5B8 /* [CP] Check Pods Manifest.lock */ = {
+		278F54B9CC2C0280F42F7899 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -228,6 +203,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B42709C9E7EF9488DC0E9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARPopupLabel_Example/Pods-ARPopupLabel_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARPopupLabel/ARPopupLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/UIBezierPath-Query/UIBezierPath_Query.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARPopupLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIBezierPath_Query.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARPopupLabel_Example/Pods-ARPopupLabel_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -365,11 +360,12 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C0C89DC071DA6FAA554A9D2 /* Pods-ARPopupLabel_Example.debug.xcconfig */;
+			baseConfigurationReference = 206748BF12F798DFCDCFD5AC /* Pods-ARPopupLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 99KS7662UV;
 				INFOPLIST_FILE = ARPopupLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -381,11 +377,12 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DF934DE8D5BBDCECFA738A8 /* Pods-ARPopupLabel_Example.release.xcconfig */;
+			baseConfigurationReference = 07EA06F3AC7970E9EE1031FA /* Pods-ARPopupLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 99KS7662UV;
 				INFOPLIST_FILE = ARPopupLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
